@@ -21,6 +21,6 @@
     
     begin() returns an iterator pointing to the first object in the data structure.
     end() returns an iterator representing the end of the list, doesn't point the last object, instead one past the last object. 
-    
-    
 **/
+
+//Note: Code shown in the class, is stored up in blackboard.
