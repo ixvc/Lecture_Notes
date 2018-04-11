@@ -1,1 +1,26 @@
-// This is lecture notes to today's class. 
+// This is lecture notes for today's class. 
+
+/**
+::The Standard Tmpelate Library:: 
+   STL cntains portable implementation of many popular Data Structures. These data structures are called as Containers. 
+   It's not part of core C++.
+   It's part of C++ Standard.
+   Contains template classes.
+   Uses lots of iterators. 
+   
+   ++
+   Iterators
+   ++
+    An iterator is an object, and facilate cycling through data in a container. 
+    Instead of writing methods for every possible data type we have a generic approach to all of them.
+    
+    An iterator is generalization of a pointer. 
+    Typically implemented using a pointer, and encapsulation makes sure we don't need to bother with how it's implemented.
+    Each container has it's own iterators. Generic to their containers, not all containers.
+    Iterators are objects, not pointers but we do fine pretending like it's a pointer and using it as such.
+    
+    begin() returns an iterator pointing to the first object in the data structure.
+    end() returns an iterator representing the end of the list, doesn't point the last object, instead one past the last object. 
+    
+    
+**/
