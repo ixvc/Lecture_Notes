@@ -15,10 +15,21 @@ push{R5-R2} ;;This will give me an error, since the first parameter needs to be 
 ;;If you do this now
 push{R2-R5}
 
+
+BL ROUTINE
+POP {R7}
+
+
 pop   {PC} 
 
 ROUTINE PUSH {LR}
-
+	POP {R1}
+	POP {R2-R5}
+	ADD R6,R2,R3
+	ADD R7,R4.R5
+	ADD R8,R6,R7
+	PUSH {R8}	
+	BX   LR   ;;Branch and Exchange, taking you back to main function
 
 ;;Allocating space
 
