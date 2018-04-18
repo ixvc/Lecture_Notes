@@ -1,0 +1,106 @@
+Anti-Patterns
+-------------
+There are things that are not beneificial that happen in development cycle. This can be avoided.
+These are called Anti-Patterns.
+
+Vocabulary
+----------
+
+Refactoring and Facotring  --> Factoring is breaking problems to small piece, also known as decomposition. Refactoring... you re-factor it without changing
+how it works.
+
+Plans are plans... End results don't match out intentions. 
+
+Blob (God CLASS)
+----------------
+
+* The "Smell"
+    --"The class that is heart"
+ 
+* General Form
+    --One class processes, others just hold data.
+* Symptom:
+    --Unrelated attributes and operations in that class.
+* Consequence:
+    --Non-resuable and no oop benefits.
+
+Causes
+------
+*Lack of Architecture.
+*Feature Creep.
+
+Exception
+---------
+*Wrapping a legacy system.
+
+Refactored Solution
+-------------------
+*Distribtuion of responsiblities.
+*In an orderly fashion.
+
+Golden Hammer
+-------------
+* The "Smell"
+    --When you have a hammer, everything looks like nail"
+* General Form
+    --A team that good at one thing.
+* Symptons
+    --Tools are similar for all kind of problems
+* Consequences 
+    --Good with just one tool. Isolated and not good for other tasks that are good with other stuff.
+* Causes
+    --Victory defeated you. Large investment in training or gaining experience in product or technology.
+* Exception
+    --Product is going to be used or long-term-solution (Oracle Database).
+* Refactored Solution
+    --Phil. shift and managent hiring good peeps.
+
+Warm Bodies (Mythical Man-Month)
+-------------------------------
+
+*  The "Smell"
+    --One of out of 20 programmers.. produces 20 times the software compared to average joe
+*  The problem.
+    --Large-scale projects are common.
+    --As is under-bidding.
+    --There is attitude that a project can be grown if needed to fix problems.
+*  Refactored solution
+    --When possible, smaller teams.
+    --With shorter deadlines.
+
+Re-invent the Wheel
+-------------------
+* "The Smell"
+    --"Our problem is unique"
+*  General Form
+    --Custom software systems are built from ground up inspite of other systems with overlapping functionality.
+*  A symptom
+    --Replication of same thingy you could have got.
+*  Causes
+    --No communications and tech-transfer between project.
+    --Assumption of greenfield development
+*  Exceptions
+    --Research environments.
+*  Refactored Solution
+    --Architecture Mining.
+
+Fear of Success
+---------------
+
+*  The "Smell"
+    --We are not worthy.
+*  The Problem
+    --Obsessive worrying about what can go wrong
+    --Insecurities about professional competence can bubble from surface.
+    --Irrational thinking leads to irrational decisions.
+*  Refactored Solution
+    --Declare Success
+
+Intellectual Violence
+---------------------
+
+*  The Problem
+    --When someone who understands a thing and uses that knowledge to intimidate others.
+    
+
+
