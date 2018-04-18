@@ -1,5 +1,27 @@
 ;;Intitial Commit
 
  Using stack to write add program in arm assembly.
- 
+
+PUSH {LR}
+
+;;mov the value to the registers
+;; Push all those registers
+Push{R2,R3,R4,R5}
+;;The lowest register will always go to the lower-address and the higher register will subsequently go to the
+;;higher address.
+
+;;if you do this 
+push{R5-R2} ;;This will give me an error, since the first parameter needs to be lowest reister and secodn needs to be higher one
+;;If you do this now
+push{R2-R5}
+
+pop   {PC} 
+
+ROUTINE PUSH {LR}
+
+
+;;Allocating space
+
+Stack EQU 0x00000400 ;;Size in bytes
+
  
