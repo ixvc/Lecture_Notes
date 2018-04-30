@@ -1,0 +1,36 @@
+DATA DCD 0x12345678
+Msg1 DCB "The sequence is: " ,0
+
+;== main part ==
+
+PUSH {LR}
+
+	MOV R5,#29
+	LDR R0, =DATA
+	LDR R0, [R0]
+	MOV R2, R0
+	AND R0, R0,#0x0F
+	CMP R0, 0xA
+	BEQ NOOFSEQ
+
+
+
+NOOFSEQ ADD R6,R6,#1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POP {PC}
+
+
+
